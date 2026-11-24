@@ -1,0 +1,210 @@
+:root {
+  --espresso: #3B2A20;
+  --cream: #F6EEE3;
+  --caramel: #C8873A;
+  --tan: #E4D2BA;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: var(--cream);
+    color: var(--espresso);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+.btn-caramel {
+  background-color: var(--caramel);
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.6rem;
+  border-radius: 50px;
+}
+.btn-caramel:hover {
+  background-color: var(--espresso);
+  color: #fff;
+}
+
+.brew-nav {
+  background-color: var(--cream);
+  border-bottom: 1px solid var(--tan);
+  padding: 0.9rem 0;
+}
+
+.brew-nav .navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--espresso);
+}
+
+.brew-nav .nav-link {
+  color: var(--espresso);
+  font-weight: 500;
+}
+.brew-nav .nav-link:hover {
+  color: var(--caramel);
+}
+
+/* Smooth scrolling when clicking nav links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Stops the sticky navbar from covering section titles after a jump */
+section {
+  scroll-margin-top: 80px;
+}
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(59, 42, 32, 0.65), rgba(59, 42, 32, 0.65)),
+    url('../images/coffee\ on\ the\ table2.jpg') center / cover no-repeat;
+  color: #fff;
+}
+
+.hero-tag {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.85rem;
+    color: var(--tan);
+}
+
+.hero-title {
+    font-size: clamp(2.4rem, 6vw, 4.2rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+}
+
+.hero-text {
+    font-size: 1.15rem;
+    max-width: 480px;
+    margin-bottom: 2rem;
+    color: #f1e6d6;
+}
+
+.hero-outline {
+  border-radius: 50px;
+  padding: 0.7rem 1.6rem;
+}
+
+.section-pad {
+  padding: 5rem 0;
+}
+
+.section-tag {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.85rem;
+  color: var(--caramel);
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+
+}
+
+.about-img {
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(59, 42, 32, 0.2);
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.about-points li {
+  padding: 0.3rem 0;
+  font-weight: 500;
+}
+
+.menu-section {
+  background-color: var(--tan);
+}
+
+.menu-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: var(--cream);
+  box-shadow: 0 8px 20px rgba(59, 42, 32, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(59, 42, 32, 0.2);
+}
+
+.menu-card .card-img-top {
+  height: 210px;
+  object-fit: cover;
+}
+
+.price {
+  color: var(--caramel);
+  font-weight: 600;
+  white-space: nowrap;
+  margin-left: 0.75rem;
+}
+
+.visit-card {
+  background-color: var(--tan);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.hours-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed rgba(59, 42, 32, 0.25);
+}
+.hours-list li:last-child {
+  border-bottom: none;
+}
+
+.map-wrap {
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 380px;
+  box-shadow: 0 15px 30px rgba(59, 42, 32, 0.2);
+}
+
+.site-footer {
+  background-color: var(--espresso);
+  color: var(--tan);
+  padding: 3rem 0 1.5rem;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  color: var(--cream);
+}
+
+.site-footer a {
+  color: var(--tan);
+  text-decoration: none;
+  margin: 0 0.6rem;
+}
+.site-footer a:hover {
+  color: var(--caramel);
+}
+
+.footer-line {
+  border-color: rgba(228, 210, 186, 0.25);
+  margin: 2rem 0 1.2rem;
+}
+
+.credit-link {
+  margin: 0 !important;
+  color: var(--caramel) !important;
+  font-weight: 500;
+}
